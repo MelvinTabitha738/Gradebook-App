@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gradebook App</title>
+    <link rel="stylesheet" href="grade.css">
+</head>
+<body>
+    <h1>Gradebook App</h1>
+    <div class="input-container">
+        <label for="calculusScore">Calculus II Score:</label>
+        <input type="text" id="calculusScore" style="margin-left: 99px;">
+        <br>
+
+        <label for="softwareEngineeringScore">Software Engineering Score:</label>
+        <input type="text" id="softwareEngineeringScore">
+        <br>
+
+        <label for="dataStructuresScore">Data Structures Score:</label>
+        <input type="text" id="dataStructuresScore" style="margin-left: 65px;">
+        <br>
+
+        <label for="operatingSystemsScore">Operating Systems Score:</label>
+        <input type="text" id="operatingSystemsScore" style="margin-left: 42px;">
+        <br>
+
+        <label for="basicElectronicsScore">Basic Electronics Score:</label>
+        <input type="text" id="basicElectronicsScore" style="margin-left: 58px;">
+        <br>
+
+        <label for="programmingScore">Programming Score:</label>
+        <input type="text" id="programmingScore" style="margin-left: 82px;">
+        <br>
+
+        <label for="databaseSystemsScore">Database Systems Score:</label>
+        <input type="text" id="databaseSystemsScore" style="margin-left: 46px;">
+        <br>
+
+        <button onclick="calculateGrades()">Calculate</button>
+        <button onclick="clearInputs()">Clear</button>
+    </div>
+    
+    <div id="result"></div>
+
+    <script src="grade.js"></script>
+</body>
+</html>
